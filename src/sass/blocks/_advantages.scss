@@ -10,13 +10,11 @@
     &__wrapper {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
     &__icons {
         margin-top: 65px;
-        width: 808px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     &__icon {
         width: 204px;
@@ -31,8 +29,7 @@
         }
     }
     &__coments {
-        width: 903px;
-        margin: 25px auto 0 auto;
+        margin-top: 25px;
         display: flex;
         justify-content: space-around;
     }
