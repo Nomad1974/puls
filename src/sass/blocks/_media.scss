@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     .container {
-        max-width: 100vh;}
+        max-width: 100vh;
     }
     .promo {
         &__header {
@@ -9,6 +9,12 @@
         &__subheader {
             font-size: 21px;
         }
+    }
+    .consultation {
+        .title {
+            font-size: 35px;
+        }
+    }
 }
 @media (max-width: 991px) {
     .container {
@@ -35,7 +41,7 @@
             width: 240px;
             }
         }
-}
+
     .advantages {
         padding: 60px 0 80px 0; 
         &__header {
@@ -45,6 +51,12 @@
             max-width: 216px;
         }
     }
+    .consultation {
+        .title {
+            font-size: 30px;
+        }
+    }
+}    
 @media (max-width: 767px) {
     .promo {
         min-height: 570px;
@@ -62,7 +74,7 @@
         }
         &__link {
         margin-top: 20px;
-        }
+        }    
     }
 
     .header {
@@ -95,7 +107,19 @@
             margin-top: 30px;
         }
     }
-    
+    .consultation {
+        .consultation__descr {
+            margin-top: 60px;
+            text-align: center;
+        }
+        .title {
+            font-size: 22px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 36px auto 0 auto;
+    }    
 }
 @media (max-width: 575px) {
     .promo {
@@ -124,7 +148,7 @@
             font-size: 13px;
         }
         &__logo {
-            img{
+            img {
                 width: 90%;
             }
         } 
@@ -134,14 +158,31 @@
             font-size: 21px;
         } 
     }
+    .consultation {
+        .consultation__descr {
+            font-size: 17px;
+        }
+        .title {
+            font-size: 18px;
+        } 
+        .feed-form {
+            width: 250px;
+        }
+        .button_submit {
+            width: 250px;
+        }      
+    }
     .button {
         width: 110px;
         height: 25px;
         font-size: 10px;
+        height: 50px;
+        font-size: 15px;
     }
     .button_main {
         width: 165px;
         height: 45px;
         font-size: 11px;
     }
+    
 }
