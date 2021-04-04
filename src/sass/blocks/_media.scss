@@ -16,6 +16,7 @@
         }
     }
 }
+
 @media (max-width: 991px) {
     .container {
         max-width: 90%;
@@ -55,6 +56,9 @@
         .title {
             font-size: 30px;
         }
+    }
+    .slick-slide img {
+        width: 90%;
     }
 }    
 @media (max-width: 767px) {
@@ -183,6 +187,5 @@
         width: 165px;
         height: 45px;
         font-size: 11px;
-    }
-    
+    }   
 }
