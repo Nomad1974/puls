@@ -58,7 +58,8 @@
         }
     }
     .slick-slide img {
-        width: 90%;
+        max-width: 80%;
+        margin: auto;
     }
 }    
 @media (max-width: 767px) {
@@ -123,7 +124,13 @@
     }
     .feed-form {
         margin: 36px auto 0 auto;
-    }    
+    } 
+    .catalog {
+        &__content {
+            flex-direction: column;
+            align-content: center;
+        }
+    }   
 }
 @media (max-width: 575px) {
     .promo {
@@ -187,5 +194,6 @@
         width: 165px;
         height: 45px;
         font-size: 11px;
-    }   
+    }  
+
 }
